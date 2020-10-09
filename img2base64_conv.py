@@ -43,5 +43,5 @@ if os.path.isfile(new_file_name) == False:
     print('File written')
     os.close(new_file)	
 else:
-    print('File with the name ' + new_file_name + ' aleready exists in this folder: ' + os.path.dirname(file_path))
+    print('File with the name ' + new_file_name + ' already exists in this folder: ' + os.path.dirname(file_path))
     exit()
